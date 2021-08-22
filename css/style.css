@@ -71,6 +71,7 @@
         font-size: 50px;
         position: relative;
         top: -100px;
+        opacity: 0.7;
     }
 
     #btc
@@ -78,4 +79,29 @@
         position:absolute; 
         right: 0.1%; 
         top: 45%;
+    }
+
+    #btc ul
+    {
+        list-style: none;
+    }
+
+    html, body {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+
+    .fundojogopadrao
+    {
+        background-color: rgb(34, 34, 34);
+    }
+
+    #rainbowimg
+    {
+        width: 70%;
+        position: absolute;               
+        top: 5%;     
+        left: 50%;                   
+        transform: translate(-50%, 0) 
+        
     }
