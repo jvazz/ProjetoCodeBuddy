@@ -1,87 +1,81 @@
-#logo
-{
+#logo 
+{ 
     width: 200px;
+    margin: 10px; 
 }
 
-#menu ul {
-    background-color:#b8b8b800;
-    list-style:none;
-}
+#menu ul { background-color:#b8b8b800; list-style:none; } 
 
-#menu ul li { display: inline-block; }
+#menu ul li { display: inline-block; } 
 
-#menu ul li a {
-    padding: 10px 10px;  /*tamanho do botão*/
-    display: inline-block;
-
-    /* visual do link */
-    background-color:#000000;
-    color: rgb(255, 255, 255);
-    text-decoration: none;
+#menu ul li a 
+{ 
+    padding: 10px 10px;  /*tamanho do botão*/ 
+    display: inline-block; /* visual do link */ 
+    background-color:#000000; 
+    color: rgb(255, 255, 255); 
+    text-decoration: none; 
     border-bottom:3px solid #EDEDED;  /*tamanho da borda de baixo*/
     border-radius:5px 5px 5px 5px;  /*arredondamento do botão*/
-    margin: 10px; /*distancia entre os botões*/
-}
+    margin: 10px; /*distancia entre os botões*/ }
 
-#body
-{
-    background-color: #a8a8a8;
-}
+    #body { background-color: #a8a8a8; }
+    
+    #headeru { background-color: #535353; } 
+    
+    #menu
+    { 
+        position:absolute; 
+        right: 10px; 
+        top: 60px; /* posiciona a 60px para baixo */ 
+    } 
+    
+    #h2jogosu 
+    { 
+        font-size: 40px; 
+    } 
+    
+    #listajogos ul 
+    { 
+        list-style:none; 
+        position:absolute; 
+        left: -35px; 
+        top: 280px; 
+        white-space: nowrap;
+    } 
+    
+    #listajogos ul li 
+    { display: inline-block; 
+        margin: 10px; /*distancia entre os botões*/ 
+    } 
+    
+    #listajogos ul li p 
+    { font-size: 30px;
+         text-align: center; 
+         margin: 4px; 
+    } 
+    
+    #listajogos ul li img 
+    {
+         width: 300px;
+    } 
 
-#headeru
-{
-    background-color: #535353;
-}
+    .cjogosu
+    {
+        padding: 15px 25px;  /*tamanho do botão*/
+        display: inline-block; /* visual do link */ 
+        background-color:#252525; 
+        color: rgb(255, 255, 255); 
+        text-decoration: none;
+        border-radius: 100%;  /*arredondamento do botão*/ 
+        font-size: 50px;
+        position: relative;
+        top: -100px;
+    }
 
-#menu
-{
-    position:absolute;
-    right: 10px;
-    top: 60px; /* posiciona a 60px para baixo */
-}
-
-#jogo2u
-{
-    width: 300px;
-}
-
-#h2jogosu
-{
-    font-size: 40px;
-}
-
-#prainbowu
-{
-    font-size: 20px;
-    position:absolute;
-    left: 70px;
-    top: 260px;
-}
-
-#passassinsdirectoru
-{
-    font-size: 20px;
-    position:absolute;
-    left: 395px;
-    top: 260px;
-}
-
-.gamecard
-{
-    background-color: aqua;
-    width: 20%;
-}
-
-.gamecard img
-{
-    position: relative;
-    width: 90%;
-    left: 50%;
-    transform: translateX(-50%);
-
-}
-
-.gamecard p
-{
-    text-align: center;
-}
+    #btc
+    {
+        position:absolute; 
+        right: 0.1%; 
+        top: 45%;
+    }
